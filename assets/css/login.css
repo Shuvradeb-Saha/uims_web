@@ -1,0 +1,97 @@
+body{
+    background-color: #843534;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    text-align: center;
+    margin-left: 10px;
+    color: white;
+    font-family: "Times New Roman", Times, sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.loginBox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 420px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.5);
+    margin-top: 50px;
+
+}
+
+.user{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+}
+
+h2{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    color: white;
+}
+
+.loginBox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.loginBox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginBox input[type="text"],
+.loginBox input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #843534;
+    background: transparent;
+    color: white;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+}
+
+::placeholder{
+    color: rgba(255,255,255,.5);
+}
+
+#signInButton
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 5px;
+    background: hotpink;
+}
+
+#signUpButton{
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 5px;
+    background: forestgreen;
+    width: 50%;
+}

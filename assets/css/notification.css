@@ -1,0 +1,32 @@
+a.notif {
+    position: relative;
+    display: block;
+    height: 50px;
+    width: 50px;
+    background: url('../../assets/image/notification.png');
+    background-size: contain;
+    text-decoration: none;
+}
+
+a.user {
+    position: relative;
+    display: block;
+    height: 50px;
+    width: 50px;
+    background: url('../../assets/image/userNotify.png');
+    background-size: contain;
+    text-decoration: none;
+}
+
+.num {
+    position: absolute;
+    right: 11px;
+    top: 6px;
+    color: #fff;
+}
+.numusr {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    color: #fff;
+}
